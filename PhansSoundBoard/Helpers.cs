@@ -21,7 +21,6 @@ namespace PhantasaiasSoundBoard
             openFileDialog.Filter = filter;
             openFileDialog.FilterIndex = 1;
             openFileDialog.Multiselect = false;
-            openFileDialog.InitialDirectory = Application.StartupPath;
 
 
             var userClickedOK = openFileDialog.ShowDialog();
